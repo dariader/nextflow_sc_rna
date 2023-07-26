@@ -1,0 +1,1 @@
+parallel-fastq-dump --sra-id SRR15174675 --threads 8 --outdir ./data/reads/ --split-files --gzip

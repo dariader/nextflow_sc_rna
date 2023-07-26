@@ -1,0 +1,32 @@
+Jul-23 20:34:36.389 [main] DEBUG nextflow.cli.Launcher - $> nextflow ./bact_scRNA_assembly.nf -w /temp_data/
+Jul-23 20:34:36.474 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 23.04.2
+Jul-23 20:34:36.485 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/daria/.nextflow/plugins; core-plugins: nf-amazon@1.16.2,nf-azure@1.0.1,nf-codecommit@0.1.4,nf-console@1.0.5,nf-ga4gh@1.0.5,nf-google@1.7.3,nf-tower@1.5.12,nf-wave@0.8.3
+Jul-23 20:34:36.491 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Jul-23 20:34:36.492 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Jul-23 20:34:36.494 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
+Jul-23 20:34:36.500 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Jul-23 20:34:36.546 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 from script declararion
+Jul-23 20:34:36.558 [main] INFO  nextflow.cli.CmdRun - Launching `./bact_scRNA_assembly.nf` [mighty_sanger] DSL2 - revision: 0330a7907f
+Jul-23 20:34:36.558 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Jul-23 20:34:36.559 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+Jul-23 20:34:36.564 [main] DEBUG nextflow.secret.LocalSecretsProvider - Secrets store: /home/daria/.nextflow/secrets/store.json
+Jul-23 20:34:36.567 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@2a9bc08f] - activable => nextflow.secret.LocalSecretsProvider@2a9bc08f
+Jul-23 20:34:36.610 [main] DEBUG nextflow.Session - Session UUID: d1731ec4-f41c-4703-ab63-0d4b02ba4804
+Jul-23 20:34:36.611 [main] DEBUG nextflow.Session - Run name: mighty_sanger
+Jul-23 20:34:36.612 [main] DEBUG nextflow.Session - Executor pool size: 16
+Jul-23 20:34:36.619 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=48; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Jul-23 20:34:36.637 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 23.04.2 build 5870
+  Created: 08-06-2023 08:29 UTC (11:29 EEST)
+  System: Linux 5.19.0-46-generic
+  Runtime: Groovy 3.0.16 on OpenJDK 64-Bit Server VM 11.0.13+7-b1751.21
+  Encoding: UTF-8 (UTF-8)
+  Process: 209205@daria [127.0.1.1]
+  CPUs: 16 - Mem: 15 GB (2.4 GB) - Swap: 2 GB (1.4 GB)
+Jul-23 20:34:36.642 [main] DEBUG nextflow.cli.Launcher - Operation aborted
+nextflow.exception.AbortOperationException: Cannot create work-dir: /temp_data -- Make sure you have write permissions or specify a different directory by using the `-w` command line option
+	at nextflow.Session.init(Session.groovy:363)
+	at nextflow.script.ScriptRunner.execute(ScriptRunner.groovy:122)
+	at nextflow.cli.CmdRun.run(CmdRun.groovy:368)
+	at nextflow.cli.Launcher.run(Launcher.groovy:494)
+	at nextflow.cli.Launcher.main(Launcher.groovy:653)

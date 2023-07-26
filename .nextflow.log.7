@@ -1,0 +1,154 @@
+Jul-23 20:32:57.017 [main] DEBUG nextflow.cli.Launcher - $> nextflow ./bact_scRNA_assembly.nf
+Jul-23 20:32:57.093 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 23.04.2
+Jul-23 20:32:57.105 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/daria/.nextflow/plugins; core-plugins: nf-amazon@1.16.2,nf-azure@1.0.1,nf-codecommit@0.1.4,nf-console@1.0.5,nf-ga4gh@1.0.5,nf-google@1.7.3,nf-tower@1.5.12,nf-wave@0.8.3
+Jul-23 20:32:57.112 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Jul-23 20:32:57.113 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Jul-23 20:32:57.116 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
+Jul-23 20:32:57.124 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Jul-23 20:32:57.165 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 from script declararion
+Jul-23 20:32:57.176 [main] INFO  nextflow.cli.CmdRun - Launching `./bact_scRNA_assembly.nf` [dreamy_ardinghelli] DSL2 - revision: 0330a7907f
+Jul-23 20:32:57.176 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Jul-23 20:32:57.176 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+Jul-23 20:32:57.181 [main] DEBUG nextflow.secret.LocalSecretsProvider - Secrets store: /home/daria/.nextflow/secrets/store.json
+Jul-23 20:32:57.184 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@2a9bc08f] - activable => nextflow.secret.LocalSecretsProvider@2a9bc08f
+Jul-23 20:32:57.227 [main] DEBUG nextflow.Session - Session UUID: 1e5b3b33-0ce8-4c9f-9bad-fcb9d5a622c4
+Jul-23 20:32:57.227 [main] DEBUG nextflow.Session - Run name: dreamy_ardinghelli
+Jul-23 20:32:57.228 [main] DEBUG nextflow.Session - Executor pool size: 16
+Jul-23 20:32:57.234 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=48; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Jul-23 20:32:57.250 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 23.04.2 build 5870
+  Created: 08-06-2023 08:29 UTC (11:29 EEST)
+  System: Linux 5.19.0-46-generic
+  Runtime: Groovy 3.0.16 on OpenJDK 64-Bit Server VM 11.0.13+7-b1751.21
+  Encoding: UTF-8 (UTF-8)
+  Process: 208883@daria [127.0.1.1]
+  CPUs: 16 - Mem: 15 GB (2.4 GB) - Swap: 2 GB (1.4 GB)
+Jul-23 20:32:57.262 [main] DEBUG nextflow.Session - Work-dir: /home/daria/PycharmProjects/nextflow_sc_rna/work [ext2/ext3]
+Jul-23 20:32:57.262 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /home/daria/PycharmProjects/nextflow_sc_rna/bin
+Jul-23 20:32:57.267 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Jul-23 20:32:57.274 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Jul-23 20:32:57.286 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Jul-23 20:32:57.292 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 17; maxThreads: 1000
+Jul-23 20:32:57.331 [main] DEBUG nextflow.Session - Session start
+Jul-23 20:32:57.702 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Jul-23 20:32:57.785 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jul-23 20:32:57.785 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jul-23 20:32:57.789 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+Jul-23 20:32:57.791 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=16; memory=15 GB; capacity=16; pollInterval=100ms; dumpInterval=5m
+Jul-23 20:32:57.840 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: fastqc, multiqc
+Jul-23 20:32:57.840 [main] DEBUG nextflow.Session - Igniting dataflow network (2)
+Jul-23 20:32:57.850 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > fastqc
+Jul-23 20:32:57.851 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
+Jul-23 20:32:57.851 [main] DEBUG nextflow.Session - Session await
+Jul-23 20:32:57.853 [PathVisitor-1] DEBUG nextflow.file.PathVisitor - files for syntax: glob; folder: /home/daria/PycharmProjects/nextflow_sc_rna/data/reads/; pattern: *.fastq.gz; options: [:]
+Jul-23 20:32:57.932 [Task submitter] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=fastqc (1); work-dir=/home/daria/PycharmProjects/nextflow_sc_rna/work/0b/7107ca4346e370eb56658e20c76720
+  error [java.lang.reflect.UndeclaredThrowableException]: java.lang.reflect.UndeclaredThrowableException
+Jul-23 20:32:57.937 [Task submitter] ERROR nextflow.processor.TaskProcessor - Error executing process > 'fastqc (1)'
+
+Caused by:
+  File `/home/daria/PycharmProjects/nextflow_sc_rna/fastqc/*_logs` is outside the scope of the process work directory: /home/daria/PycharmProjects/nextflow_sc_rna/work/0b/7107ca4346e370eb56658e20c76720
+
+java.lang.reflect.UndeclaredThrowableException: null
+	at com.sun.proxy.$Proxy25.apply(Unknown Source)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1705)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite$PojoCachedMethodSiteNoUnwrap.invoke(PojoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite.call(PojoMetaMethodSite.java:51)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:148)
+	at nextflow.processor.TaskRun.getOutputFilesNames(TaskRun.groovy:448)
+	at nextflow.processor.TaskBean.<init>(TaskBean.groovy:153)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:105)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at nextflow.processor.TaskRun.toTaskBean(TaskRun.groovy:879)
+	at nextflow.executor.local.LocalTaskHandler.buildTaskWrapper(LocalTaskHandler.groovy:128)
+	at nextflow.executor.local.LocalTaskHandler.submit(LocalTaskHandler.groovy:98)
+	at nextflow.processor.TaskPollingMonitor.submit(TaskPollingMonitor.groovy:195)
+	at nextflow.processor.LocalPollingMonitor.submit(LocalPollingMonitor.groovy:192)
+	at nextflow.processor.TaskPollingMonitor.submitPendingTasks(TaskPollingMonitor.groovy:561)
+	at nextflow.processor.TaskPollingMonitor.submitLoop(TaskPollingMonitor.groovy:386)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1258)
+	at groovy.lang.MetaClassImpl.invokeMethodClosure(MetaClassImpl.java:1047)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1132)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1035)
+	at groovy.lang.Closure.call(Closure.java:412)
+	at groovy.lang.Closure.call(Closure.java:406)
+	at groovy.lang.Closure.run(Closure.java:493)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: nextflow.exception.IllegalFileException: File `/home/daria/PycharmProjects/nextflow_sc_rna/fastqc/*_logs` is outside the scope of the process work directory: /home/daria/PycharmProjects/nextflow_sc_rna/work/0b/7107ca4346e370eb56658e20c76720
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:59)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at nextflow.script.params.FileOutParam.relativize(FileOutParam.groovy:233)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:189)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:57)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:194)
+	at nextflow.script.params.FileOutParam.getFilePatterns(FileOutParam.groovy:212)
+	at nextflow.script.params.FileOutParam$getFilePatterns$1.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:148)
+	at nextflow.processor.TaskRun.getOutputFilesNames0(TaskRun.groovy:455)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:362)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:61)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:176)
+	at nextflow.processor.TaskRun$_getOutputFilesNames_closure2.doCall(TaskRun.groovy:448)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:274)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1035)
+	at groovy.lang.Closure.call(Closure.java:412)
+	at org.codehaus.groovy.runtime.ConvertedClosure.invokeCustom(ConvertedClosure.java:50)
+	at org.codehaus.groovy.runtime.ConversionHandler.invoke(ConversionHandler.java:112)
+	... 44 common frames omitted
+Jul-23 20:32:57.940 [Task submitter] DEBUG nextflow.Session - Session aborted -- Cause: java.lang.reflect.UndeclaredThrowableException
+Jul-23 20:32:57.945 [main] DEBUG nextflow.Session - Session await > all processes finished
+Jul-23 20:32:57.946 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Jul-23 20:32:57.949 [main] DEBUG nextflow.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=0; failedCount=1; ignoredCount=0; cachedCount=0; pendingCount=2; submittedCount=0; runningCount=-1; retriesCount=0; abortedCount=0; succeedDuration=0ms; failedDuration=0ms; cachedDuration=0ms;loadCpus=-1; loadMemory=0; peakRunning=0; peakCpus=0; peakMemory=0; ]
+Jul-23 20:32:58.145 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+Jul-23 20:32:58.186 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

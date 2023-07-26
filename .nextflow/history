@@ -1,0 +1,150 @@
+2023-07-21 19:29:10	1.8s	nauseous_hoover	OK	a40093cb6f1a707631bdb2cc638f063b	39bfc6d3-8412-47c9-a2df-73df7297c43c	nextflow run helloworld.nf
+2023-07-21 19:30:23	792ms	elegant_poincare	OK	a40093cb6f1a707631bdb2cc638f063b	d5567439-0106-433c-aadd-727a42e70722	nextflow ./helloworld.nf
+2023-07-21 19:57:34	1.3s	pedantic_brenner	OK	a40093cb6f1a707631bdb2cc638f063b	dc4c34d7-b9bb-4eec-847d-bf10317a1d39	nextflow ./helloworld.nf
+2023-07-21 19:57:58	770ms	magical_mayer	OK	a40093cb6f1a707631bdb2cc638f063b	6a936e7b-2fd0-47c3-8c93-15a4f02fb7cb	nextflow ./helloworld.nf
+2023-07-21 19:58:17	1.1s	stoic_carlsson	ERR	c1754848a8f2dc6442b2198aeb748c27	44792f7c-7cfd-47f3-8eb4-f9dc34b1d875	nextflow ./test_vis_workflow.nf
+2023-07-21 19:58:34	-	intergalactic_dijkstra	-	a76a7930060ce2d94029bc5158a65137	72cf5c2d-b524-4f85-ac40-519ee8133af8	nextflow ./test_vis_workflow.nf
+2023-07-21 19:58:44	1.6s	angry_bartik	ERR	df9eef1df8b3c9aae21f81db633162bc	bc5e91ba-a780-4bea-b5a5-030958116d9e	nextflow ./test_vis_workflow.nf
+2023-07-21 20:00:30	2.3s	infallible_coulomb	OK	df9eef1df8b3c9aae21f81db633162bc	2a83be32-edff-4de5-a77a-1aa7756ad02f	nextflow ./test_vis_workflow.nf
+2023-07-21 20:07:30	943ms	naughty_franklin	ERR	7d7bea6c7dcbd6da374e36198c89bd46	3a48c97e-29dc-4e8a-97b9-70208c21d5a2	nextflow ./test_vis_workflow.nf
+2023-07-21 20:12:04	1.3s	agitated_nightingale	ERR	e77ad132a0b7ccb71d83e5004827de1d	1f4af857-5bff-4459-8d60-36ac1531356b	nextflow ./test_vis_workflow.nf
+2023-07-21 20:13:20	1.9s	astonishing_stonebraker	ERR	e9651b703cc2f6dcbbba7e867b8cb91c	2d1cb915-9e51-4bdc-91d1-f781a156ee84	nextflow ./test_vis_workflow.nf
+2023-07-21 20:13:58	3s	chaotic_thompson	OK	e67468863f5cd2378e1bdcf72454644c	92817372-7c99-42b7-a76e-077c99d4f467	nextflow ./test_vis_workflow.nf
+2023-07-21 20:14:09	-	awesome_solvay	-	eb57ea2288e8853318163a338100ff95	97fd19bd-7f6c-439c-9af8-8c65340a9620	nextflow ./test_vis_workflow.nf
+2023-07-21 20:14:33	-	infallible_poitras	-	5c24a23e1462ef23e0501d631c7da406	d2814526-b6d9-4d5f-af30-7cd890d4ce22	nextflow ./test_vis_workflow.nf
+2023-07-21 20:16:03	1.8s	gloomy_easley	OK	2b256186c7df750c01adf5526523897c	34d0e01d-797e-4378-87a6-f86de333297c	nextflow ./test_vis_workflow.nf
+2023-07-22 19:59:33	-	elated_brown	-	b3ec277acf00cbb7b19ca1414e326047	95adb31d-5866-45ce-b83d-ae809ba49bbf	nextflow ./test_sc_rna_workflow.nf
+2023-07-22 20:00:41	-	distraught_agnesi	-	3d527779360835651f819b2cd1e7b8ea	0ce91075-1247-45d2-92cb-136ad892a9da	nextflow ./test_sc_rna_workflow.nf
+2023-07-22 20:00:51	-	sick_jones	-	45e9c1ca82cd2ac3b85a67477c73126e	013ef8ac-8d55-4adf-bacb-a6c12f8d6298	nextflow ./test_sc_rna_workflow.nf
+2023-07-22 20:01:29	-	pedantic_lamarck	-	a26c2948e2dbbeaef224493c6381239d	4a26caa0-1cc5-4710-8ed8-2692b2673ad4	nextflow ./test_sc_rna_workflow.nf
+2023-07-22 20:02:20	-	zen_pike	-	ab24bdaaf3a016a44de3fe0c1a95ca53	16cc6d10-7259-4d08-8138-0d195df7de4b	nextflow ./test_sc_rna_workflow.nf
+2023-07-22 20:14:45	-	deadly_poincare	-	ede79e07271cb7cd6e79031bc26de6e6	d8e4293a-d9a5-4d9e-9415-0d3602de6960	nextflow ./test_sc_rna_workflow.nf
+2023-07-22 20:15:21	-	friendly_hopper	-	c9d7460db5b19aec5504c98aa6a145af	5906730a-931c-4d63-8eb0-7bb9e558e3f8	nextflow ./test_sc_rna_workflow.nf
+2023-07-22 20:16:26	-	special_tesla	-	32d49f42732ab2182ff78a7ba542bd85	c890e161-a94a-40e8-ab52-5f4571099490	nextflow ./test_sc_rna_workflow.nf
+2023-07-22 20:16:56	-	agitated_edison	-	f4c7bfbc6077762752dc438ade79db4b	381edb34-f315-4d24-adb2-817cc4a42111	nextflow ./test_sc_rna_workflow.nf
+2023-07-22 20:17:14	-	loving_sinoussi	-	c5426624eba220430418f83bbccdf367	40b5f0b2-6f30-4184-8da2-4f2d781fdb98	nextflow ./test_sc_rna_workflow.nf
+2023-07-22 20:18:30	-	amazing_bhaskara	-	464ea0cf04a82f85346d66a9a4768cba	c4c5e9e3-be16-4c3c-b770-53dba8910048	nextflow ./test_sc_rna_workflow.nf
+2023-07-22 20:18:49	-	nauseous_meninsky	-	e6773c1c6be32f0f4bd0631dbcfab10e	3d3e2aec-9faa-4d00-99c4-b85f96156131	nextflow ./test_sc_rna_workflow.nf
+2023-07-22 20:19:01	-	lethal_wiles	-	69155da23effcfd804c7953b6a3de82b	4e077c7b-abc5-4452-9983-494c91bb20b6	nextflow ./test_sc_rna_workflow.nf
+2023-07-22 20:19:58	-	curious_lumiere	-	ff9b0dc62b4957846c841408a55c24a1	0e931abd-9a82-4d42-b648-79fb046c53ef	nextflow ./test_sc_rna_workflow.nf
+2023-07-22 20:20:18	564ms	boring_shirley	OK	ffc53a6bcd4ccfee9fe7287235d89f3d	c0b813e6-13d4-4e2e-9c31-c3006bb3556e	nextflow ./test_sc_rna_workflow.nf
+2023-07-22 20:20:39	795ms	gigantic_carson	OK	0fcce3469ba90a6c5a147a12f6cfd4ef	a230ab22-ada4-4557-a165-662314537475	nextflow ./test_sc_rna_workflow.nf
+2023-07-22 20:22:46	888ms	sleepy_nightingale	OK	2253bd16eb3c54b6c2a90bb5898e5f26	54a69df5-4fe3-4189-ba46-7be54b94aae4	nextflow ./test_sc_rna_workflow.nf
+2023-07-22 20:23:29	1.6s	peaceful_lattes	OK	b350aa34050369392484c61ae5437221	e245d268-f8a6-4e40-bc13-172d3018f167	nextflow ./test_sc_rna_workflow.nf
+2023-07-22 20:24:25	-	hungry_engelbart	-	ccd72d41207bd40085315ee6fe0e4a80	f65f633a-9e32-4a64-b76e-b066d8323537	nextflow ./test_sc_rna_workflow.nf
+2023-07-22 20:24:54	-	tiny_pike	-	f98da41f9f84fe5400648ddcd0c55ee8	2d018605-dcf8-424e-8ef7-b84572133d04	nextflow ./test_sc_rna_workflow.nf
+2023-07-22 20:31:00	4.1s	festering_gilbert	OK	fecb1eb1c499a78b494455f814f12660	41b7c144-1352-4e7e-9a1c-576d99800b5a	nextflow ./test_sc_rna_workflow.nf
+2023-07-22 20:42:16	5.1s	zen_mcnulty	OK	d7b96060859b5da00226659756727710	4222762b-3140-4425-b235-9bc858fe6418	nextflow ./test_sc_rna_workflow.nf
+2023-07-22 20:42:39	1.7s	nauseous_marconi	ERR	ce442fb7e75afcb05e62d769a4447a2e	2e04aa72-fdc2-4ea2-8b87-8173096b85a0	nextflow ./test_sc_rna_workflow.nf
+2023-07-22 20:43:10	1s	modest_visvesvaraya	ERR	5bb194b754ea047791d5ef661350090b	40cf0779-3198-4470-a9a5-de6cd46e818c	nextflow ./test_sc_rna_workflow.nf
+2023-07-22 20:43:33	-	stoic_panini	-	c281e650a12a013b6a5c169e78389006	60c178a1-0ae7-4a27-b4b7-81151cfa1a6f	nextflow ./test_sc_rna_workflow.nf
+2023-07-22 20:43:45	1.3s	astonishing_kalman	ERR	e3c10369873c657d106b8103051594b8	d391d640-13e8-4f57-b2b8-b6ae98643dca	nextflow ./test_sc_rna_workflow.nf
+2023-07-22 20:44:23	1.1s	golden_sinoussi	ERR	ac2db4257826f089884d86bfd1991493	2cced2df-3095-4a75-8ccd-684b7f378d7b	nextflow ./test_sc_rna_workflow.nf
+2023-07-22 20:44:59	3.1s	adoring_mayer	ERR	a74da6c2a88958790e15fe7595d4dd4c	c7c51890-684a-4074-a322-8281310ca456	nextflow ./test_sc_rna_workflow.nf
+2023-07-22 20:46:18	2.8s	confident_kare	ERR	0fe5ec3621a9a87e22d07901befb30cf	905e7673-e6cf-4ba4-860b-09bd3d63b028	nextflow ./test_sc_rna_workflow.nf
+2023-07-22 20:47:36	2.3s	shrivelled_miescher	ERR	730f7a274b13ddb0d7f603dff29758a8	e3005c52-3a25-4ea4-8b08-74f78a908cfa	nextflow ./test_sc_rna_workflow.nf
+2023-07-22 20:47:56	2.3s	friendly_wilson	ERR	5ee0d651adea0e79173ac01ad03079ea	f62dcd73-bf8a-4975-9924-fc4e40a4c41b	nextflow ./test_sc_rna_workflow.nf
+2023-07-22 20:48:52	1.7s	cheeky_jang	ERR	9bd6397c07c7396f92d339328abe5832	0ade1bc9-d55b-48ad-a81b-68f165cb69b6	nextflow ./test_sc_rna_workflow.nf
+2023-07-22 20:49:44	-	deadly_wescoff	-	c7bb975c969e09c74901f8bb5fa5ac0b	1c2d16de-0a41-4a7e-be97-b042ec8efb49	nextflow ./test_sc_rna_workflow.nf
+2023-07-22 20:57:57	1.7s	deadly_miescher	ERR	7711fea6c6374e4768200253af08b0ea	248ee00b-7a99-4874-92b4-0f6357af904e	nextflow ./test_sc_rna_workflow.nf
+2023-07-22 20:58:30	6.6s	cranky_borg	ERR	e31c4143996435c2b29829ddc58af183	a844b191-31ab-4d0a-a09f-de14680ea5e2	nextflow ./test_sc_rna_workflow.nf
+2023-07-22 20:59:20	2.8s	fervent_bernard	ERR	aacb939ca53fce5f54c9c88117d903c2	5de07e80-052f-467f-92d6-73958f3dbbf9	nextflow ./test_sc_rna_workflow.nf
+2023-07-22 21:01:55	2.3s	stupefied_venter	ERR	c86c70cec3a82cb19d082b6bdb0e49e1	9c86a3c7-5569-435b-84c3-71acc4706c61	nextflow ./test_sc_rna_workflow.nf
+2023-07-22 21:02:12	2.7s	berserk_cray	ERR	4fb85fa9f724ee89a6b590857b94c003	673c8d8e-73e5-49dc-934e-9cf17a8443b4	nextflow ./test_sc_rna_workflow.nf
+2023-07-22 21:04:49	-	hopeful_marconi	-	fc525526c2f6c0ecb2e161a1f7a9fb2f	69cf063b-cc0c-4de7-9301-9d96e4745a88	nextflow ./test_sc_rna_workflow.nf
+2023-07-22 21:05:01	-	elated_darwin	-	9e62587f36e991d493adc279deb0a0e2	1c2a5863-3bbf-4b36-9f8d-614b6970ddd6	nextflow ./test_sc_rna_workflow.nf
+2023-07-22 21:05:27	-	compassionate_goldwasser	-	a11e7422ee4940d6ba5f388f1b72dfc8	663be2e6-c555-4cd6-b300-b55450eeff7a	nextflow ./test_sc_rna_workflow.nf
+2023-07-22 21:06:06	1.2s	sleepy_roentgen	ERR	f9194864216fddcc85488e73e1abad47	0062074f-aa5f-40a9-a31f-c4d602c57c95	nextflow ./test_sc_rna_workflow.nf
+2023-07-22 21:06:40	-	nauseous_mirzakhani	-	7eaaf2a5b8e47a7d110aa1fadf50bc14	e438f017-70e6-4016-969b-02d0c85dff61	nextflow ./test_sc_rna_workflow.nf
+2023-07-22 21:07:14	-	serene_lamport	-	7eaaf2a5b8e47a7d110aa1fadf50bc14	e9af4272-44be-455d-a134-9d4873d2b0b4	nextflow ./test_sc_rna_workflow.nf
+2023-07-22 21:07:34	1.1s	elated_jones	ERR	67f5c2eed568480c3e6c06be8add916e	75ae0ff4-5285-4932-b7f9-0f2e170fb4af	nextflow ./test_sc_rna_workflow.nf
+2023-07-22 21:08:06	1.9s	suspicious_bose	ERR	67f5c2eed568480c3e6c06be8add916e	b9645fd9-8db7-4142-9b77-7b734abe31d0	nextflow ./test_sc_rna_workflow.nf
+2023-07-22 21:09:29	952ms	furious_planck	ERR	91c847ad271533b09fc51c5ef868ce14	2f711029-6737-4455-8a46-1903332f8dc9	nextflow ./test_sc_rna_workflow.nf
+2023-07-22 21:11:17	1.6s	gloomy_volta	ERR	91c847ad271533b09fc51c5ef868ce14	e61583a0-2773-4567-a02f-7470729dfb5b	nextflow ./test_sc_rna_workflow.nf
+2023-07-22 21:11:41	1.2s	admiring_mahavira	ERR	91c847ad271533b09fc51c5ef868ce14	ab766d81-96eb-4203-9466-4f9fe730193c	nextflow ./test_sc_rna_workflow.nf
+2023-07-22 21:13:37	972ms	naughty_gutenberg	ERR	ff861ff5815b76561acd4977a5fb1788	2cadbb65-87ca-4ec2-9bf7-926e47525cc0	nextflow ./test_sc_rna_workflow.nf
+2023-07-22 21:14:43	5s	evil_edison	OK	5be70c653bfc53706983b5ce7c7affed	494c3d31-a0c4-4423-80ab-cf27f4a49f99	nextflow ./test_sc_rna_workflow.nf
+2023-07-22 21:20:51	-	marvelous_curie	-	9b990dacca6eaf10984fcdd7d9635ca8	76f0daaf-fe25-46a0-9492-38b6d044cc0e	nextflow ./test_sc_rna_workflow.nf
+2023-07-23 14:48:06	1.4s	distraught_lamport	OK	c3afe9f56e5dbac8d83b42594136e57b	635e32e3-dd2b-4a76-9d44-998d73809248	nextflow ./test_channels.nf
+2023-07-23 14:48:35	1.5s	shrivelled_swirles	OK	b352e48409f27496be0f372530a37759	81fb8f80-1a52-4757-a83a-f49937831afb	nextflow ./test_channels.nf
+2023-07-23 14:54:20	-	focused_lavoisier	-	caf7349c0d0bb9993ef0d7a7ba601e77	48336851-78f7-42df-afb8-26afeda1c266	nextflow ./test_sc_rna_workflow.nf
+2023-07-23 14:55:35	-	insane_stonebraker	-	18cc01d4640cd0ed1fe4dbdc356f2dfb	0ccb76a9-6790-4937-bf63-c6d46e24716b	nextflow ./test_sc_rna_workflow.nf
+2023-07-23 14:55:52	1.2s	reverent_chandrasekhar	ERR	ff1c8f65cc0ca9dc09adf19db8148793	2576c161-b7dd-4196-8e96-af7889e22498	nextflow ./test_sc_rna_workflow.nf
+2023-07-23 14:57:07	-	nice_murdock	-	88549b48f6c043f61c5cfc57d11f8255	350f2cda-7acc-4610-95d1-a1eca2d17610	nextflow ./test_sc_rna_workflow.nf
+2023-07-23 14:57:41	-	determined_pare	-	ad11b9589e371061a1d0a7fd4d02d124	153b95de-9fd5-49c1-9ceb-ad4257755af6	nextflow ./test_sc_rna_workflow.nf
+2023-07-23 15:00:41	-	gloomy_marconi	-	b790d2b981ac6bec351775374c189ad4	47a13ab8-b056-4953-ab80-ebc7dda2b267	nextflow ./test_sc_rna_workflow.nf
+2023-07-23 15:26:05	773ms	crazy_moriondo	OK	f2bfc68214fb72a970d157e5cf59b827	1529c796-ed31-4043-b36a-c90d05454051	nextflow ./test_sc_rna_workflow.nf
+2023-07-23 15:27:07	-	friendly_shannon	-	e3ac32e3b55e290b08dbd541e0f43ff8	9e4a97cf-42ff-4b70-848d-c1c02f0a2818	nextflow ./test_sc_rna_workflow.nf
+2023-07-23 15:27:16	3.8s	dreamy_mcclintock	OK	c9990bd5e6c0eea6e45f1ebace0a734a	9ce81a39-03e5-4882-b004-7e9647031496	nextflow ./test_sc_rna_workflow.nf
+2023-07-23 15:27:54	1.9s	exotic_coulomb	ERR	b006c0a168f9249db79444e8e9a3afad	91cebece-ddb0-46fa-a2cb-e8020ddaa44e	nextflow ./test_sc_rna_workflow.nf
+2023-07-23 15:28:36	1.8s	magical_torvalds	ERR	9893f684c66d8c7f3906d6cb46cc02ed	4632b821-af8d-4598-9270-39824fce9130	nextflow ./test_sc_rna_workflow.nf
+2023-07-23 15:28:48	1.2s	cranky_roentgen	ERR	9893f684c66d8c7f3906d6cb46cc02ed	b1522eda-8186-453f-990f-6ecca8222fec	nextflow ./test_sc_rna_workflow.nf
+2023-07-23 15:29:34	-	determined_easley	-	b11ff9e991d8c03d75c24d91ea77c505	961cefba-4ca7-46ec-bc5a-cd9d9acfe5b8	nextflow ./test_sc_rna_workflow.nf
+2023-07-23 15:30:08	1.1s	distraught_austin	ERR	01ed2fc29fb2afe0b583c08133207e70	2feb8b21-6943-456a-b1b3-80f71f6958fd	nextflow ./test_sc_rna_workflow.nf
+2023-07-23 15:33:06	1.2s	elated_bardeen	ERR	6852a78ac30268fe8539e540ddf7a49e	1139e5a5-aa59-41c3-9a1a-eefd461130c6	nextflow ./test_sc_rna_workflow.nf
+2023-07-23 15:33:59	1.8s	big_wescoff	ERR	23a5a8e0f4ccaa2066b07fc7789c740c	5c8632ce-a170-4aac-b80d-2f8e837d97db	nextflow ./test_sc_rna_workflow.nf
+2023-07-23 15:39:46	1.6s	lethal_ptolemy	ERR	4cab62939a24fc94bb4fc8c1a3bc6071	bfc156b0-da53-43bd-a19a-0f64370b7e88	nextflow ./test_sc_rna_workflow.nf
+2023-07-23 15:40:55	-	distracted_poisson	-	2a86f9a23e4872998777f2ede7044065	9f400fb2-a826-4ecb-915d-133f160e6d66	nextflow ./test_sc_rna_workflow.nf
+2023-07-23 15:41:03	1.2s	nauseous_noyce	ERR	ddfe995c307c4f558a58c576d3c0bb3b	475bb87d-0859-49f3-8289-50606d367a95	nextflow ./test_sc_rna_workflow.nf
+2023-07-23 15:41:25	1.6s	pedantic_gilbert	ERR	271358023e20321f091dc4d3f4c75f5d	279a933b-b1f3-4486-b996-9eec17f60efa	nextflow ./test_sc_rna_workflow.nf
+2023-07-23 15:56:30	-	focused_gutenberg	-	cc28dd731b58f57031a90569cb1a0dcc	eb7c2605-5a78-4288-950b-fb5b2d11dff5	nextflow ./test_sc_rna_workflow.nf
+2023-07-23 15:56:46	-	distraught_curry	-	a68d4a548f85281ced60dcd753e432f6	25924e4e-eda4-4802-b0cd-1f70ff4d4a54	nextflow ./test_sc_rna_workflow.nf
+2023-07-23 15:57:02	1.1s	hopeful_galileo	ERR	646f6ccb5a8733c6e191e0bbc3223035	ee862456-b5b8-4fae-8dcb-ea23186a794a	nextflow ./test_sc_rna_workflow.nf
+2023-07-23 15:57:07	998ms	exotic_koch	ERR	646f6ccb5a8733c6e191e0bbc3223035	42e412ac-d710-4681-b1d4-f19486624a91	nextflow ./test_sc_rna_workflow.nf
+2023-07-23 15:57:38	-	disturbed_church	-	dbc97a14eaf5bc81184a8796fe785c95	91c0fa27-361c-4f7e-a70c-0e83385efcbe	nextflow ./test_sc_rna_workflow.nf
+2023-07-23 15:57:45	-	happy_planck	-	732443e82256d6129ea79879f9a67ab4	0cab39f6-da69-4c3a-9bf0-c4cc0ddeb790	nextflow ./test_sc_rna_workflow.nf
+2023-07-23 15:57:55	-	angry_poisson	-	8ad74ce72afaff95fe4c6f04f0cbb459	275e3b92-b905-471a-8d94-eb7761b558dd	nextflow ./test_sc_rna_workflow.nf
+2023-07-23 15:58:04	-	sharp_meninsky	-	3dd29be31b399187ca68c18af1d989aa	83764cc8-4ff3-4603-b901-8c9d2be4c97d	nextflow ./test_sc_rna_workflow.nf
+2023-07-23 15:58:30	4.1s	stoic_woese	OK	1ffa7a4ca58e9f43029e693d4a951c8f	d2d3101e-8c21-4890-a47c-0cdbaad4bbb9	nextflow ./test_sc_rna_workflow.nf
+2023-07-23 15:59:00	1s	gloomy_heisenberg	OK	b352e48409f27496be0f372530a37759	4c191dd3-0e4a-4499-83ca-a6f322bbc728	nextflow ./test_channels.nf
+2023-07-23 15:59:09	-	dreamy_kay	-	21b45e58015f474d1aec89cebb0900ab	43ce5a14-365f-4e2f-a488-33711454aeb1	nextflow ./test_sc_rna_workflow.nf
+2023-07-23 15:59:22	3.1s	clever_dubinsky	OK	5209a1e01b92be61e648d0743d55a312	2d86104b-7be6-4225-b9bf-17927f8bc67c	nextflow ./test_sc_rna_workflow.nf
+2023-07-23 15:59:44	-	tender_bose	-	9410ee095cd317022937daad9796eac9	906e3281-d9b1-4a3a-9328-c4705682beb8	nextflow ./test_sc_rna_workflow.nf
+2023-07-23 15:59:53	-	nasty_angela	-	647e5de5d72edc663010aba4b4772272	74de7196-4fb2-44b0-adde-7ac2f1cceaf9	nextflow ./test_sc_rna_workflow.nf
+2023-07-23 16:00:00	4.8s	gloomy_wescoff	OK	0fd45dde427d0e94bb17c2ee20146ce0	1855551a-4bdb-4be9-8f42-541e4ee2b978	nextflow ./test_sc_rna_workflow.nf
+2023-07-23 16:05:57	18.4s	stupefied_khorana	ERR	4526faaecfb4611c72b16d2707788ca7	0dc07b2b-2d6c-4b31-a621-76d21c1f58c4	nextflow ./test_sc_rna_workflow.nf
+2023-07-23 16:07:01	5.4s	maniac_dubinsky	ERR	5ea0c8063b39f385551c818e510652ba	2a22d19c-68be-4c12-b3c9-963cd8c9def9	nextflow ./test_sc_rna_workflow.nf
+2023-07-23 16:08:23	5.1s	lonely_boltzmann	ERR	2715cad579f0d9c045fc837d6db0d904	5295187f-8855-46f8-aa94-e98313e627ac	nextflow ./test_sc_rna_workflow.nf
+2023-07-23 16:08:38	8.9s	lethal_jepsen	ERR	255e213672a3ad879a6ecff9f23ac489	398dcc62-264b-403d-875a-2439902c4715	nextflow ./test_sc_rna_workflow.nf --resume
+2023-07-23 16:10:22	26.3s	angry_fermi	ERR	35eb457b5f9f514d4681c25a432c6b77	dba7f977-cd3c-4f6f-a3f7-ddf897d8d453	nextflow ./test_sc_rna_workflow.nf --resume
+2023-07-23 16:11:06	4.8s	lonely_feynman	ERR	a2f633d912b2300ed74c1c8b702e2140	dba7f977-cd3c-4f6f-a3f7-ddf897d8d453	nextflow ./test_sc_rna_workflow.nf -resume
+2023-07-23 16:50:18	4s	sad_dubinsky	OK	f45606c7277456571a58fde85df7c37a	21402290-6bcc-4c77-be2e-4eb22a5b481c	nextflow ./bact_scRNA_assembly.nf
+2023-07-23 17:02:05	-	serene_hopper	-	91b10128c00a1068568498bf3409690f	206e359e-a8ad-4c76-bfd7-18a362ae919f	nextflow ./bact_scRNA_assembly.nf
+2023-07-23 17:02:25	-	hopeful_fermat	-	c78fd5f30550bb4c0191b5b6af25fe22	28f4f95e-9379-4ce4-b1b3-286c63b3cd33	nextflow ./bact_scRNA_assembly.nf
+2023-07-23 17:06:52	-	determined_jennings	-	1750dbfb3b896e5d95c0b387aaa866a6	b04d41e4-373a-48e8-99cd-fba0a9c4e56f	nextflow ./bact_scRNA_assembly.nf
+2023-07-23 17:07:05	3.5s	serene_williams	OK	d1f400f009bcb2ce9678632d601d8edc	258f5614-1bd0-4413-8934-8631e2b90bb3	nextflow ./bact_scRNA_assembly.nf
+2023-07-23 17:11:50	3.4s	berserk_cuvier	OK	dbb89799eda9fef84f3b1438feec1478	75dba8ca-12c5-435f-a51f-d3fd2dcf55da	nextflow ./bact_scRNA_assembly.nf
+2023-07-23 17:12:22	1h 24m 36s	agitated_bardeen	ERR	52c5c7f03b4664cec157c7e8b0d1b967	94387272-5696-4a9c-92c7-25eb776f3c3a	nextflow ./bact_scRNA_assembly.nf
+2023-07-23 19:13:12	-	jolly_linnaeus	-	4d2baf1108a00c5c3eda9a86dd8b31b6	99ae9cd9-2fda-4f30-bb3b-b77ef2d1fd34	nextflow ./bact_scRNA_assembly.nf
+2023-07-23 19:13:31	20m 48s	ecstatic_hypatia	OK	7ca19bdea9124f8651d502ab89525b5e	6caa4226-4a11-4b8f-8f8b-171eb101ffeb	nextflow ./bact_scRNA_assembly.nf
+2023-07-23 19:41:27	26.2s	deadly_dubinsky	ERR	055dcbe667cc1d0126f3bce12c9d3733	0cbfec97-eeea-4e03-b8d7-1983a48b717c	nextflow ./bact_scRNA_assembly.nf --resume
+2023-07-23 19:43:13	2m 48s	jolly_legentil	ERR	055dcbe667cc1d0126f3bce12c9d3733	0cbfec97-eeea-4e03-b8d7-1983a48b717c	nextflow ./bact_scRNA_assembly.nf -resume 6ffe24fd5266a84199d65007070b79
+2023-07-23 19:50:34	4.4s	sleepy_watson	ERR	27067828746a19484d40d4d175f7e14044e5beb3	fd70ac82-120b-4e11-a51e-68e08ba8d152	nextflow run nf-core/fetchngs --input ids.csv --outdir ./data/reads/
+2023-07-23 19:52:01	-	soggy_noyce	-	27067828746a19484d40d4d175f7e14044e5beb3	2c632c00-8f72-40d2-bb1a-21b2c0a92f1d	nextflow run nf-core/fetchngs --profile docker
+2023-07-23 19:52:24	-	stoic_brahmagupta	-	27067828746a19484d40d4d175f7e14044e5beb3	a44521e9-80c5-4ba0-ac5f-b93083d79ced	nextflow run nf-core/fetchngs -profile docker
+2023-07-23 19:52:38	4.6s	mighty_kare	ERR	27067828746a19484d40d4d175f7e14044e5beb3	e56a1f66-cc29-47a2-902f-e369487217df	nextflow run nf-core/fetchngs -profile docker --input ids.csv --outdir ./data/reads/
+2023-07-23 20:16:58	-	soggy_lamarck	-	d743adbc6ac2c366711a735d028f552a	728de2f2-7726-4897-b8b6-40ad9de4bdea	nextflow ./bact_scRNA_assembly.nf
+2023-07-23 20:18:02	-	distracted_babbage	-	f4ba9ecc955a7a1fad82929cc3c7a8d0	43fc434a-a5f8-44c2-be19-9faee8829585	nextflow ./bact_scRNA_assembly.nf
+2023-07-23 20:19:32	-	magical_lichterman	-	84c063d9d3a00458bbf23af8a29e6b5a	6e256e00-05f4-421b-a03f-59f20df1e71f	nextflow ./bact_scRNA_assembly.nf
+2023-07-23 20:19:54	-	soggy_carlsson	-	8d59b370649f9dcbd1d2c2066eb9c398	d2755ca0-78c6-4d21-8a6b-776feff34a10	nextflow ./bact_scRNA_assembly.nf
+2023-07-23 20:22:03	-	gloomy_kirch	-	2b1a3c8e33f408df532aa2dabfd9f2a0	f1c1af0e-f984-4365-901b-ecb702d4a4af	nextflow ./bact_scRNA_assembly.nf
+2023-07-23 20:23:30	1.7s	sleepy_banach	OK	34a63828e2705512c4c560f65616f446	19bd80cf-1ab7-4b45-a397-a4b32e2c858c	nextflow ./bact_scRNA_assembly.nf
+2023-07-23 20:23:46	1.2s	determined_murdock	OK	896790211e75efc0bed971ed9ce835f1	fb81f21d-dd44-4242-a7ee-3625fbd136c5	nextflow ./bact_scRNA_assembly.nf
+2023-07-23 20:24:10	1.8s	boring_tuckerman	ERR	c4a2495e621dfd57e7500ef4501b748c	5ee1b1f4-28df-4335-85ac-8620813d35cc	nextflow ./bact_scRNA_assembly.nf
+2023-07-23 20:26:54	-	suspicious_crick	-	3c0cc4768d8b1712a6f17420ba6cfbb2	689cc0b9-c686-4367-8d41-d2c6a8ffc137	nextflow ./bact_scRNA_assembly.nf
+2023-07-23 20:28:36	1.7s	elated_davinci	ERR	bb26f2f4da8fee54ca178aed805bec56	431166d0-6ea2-433f-a6ce-602baa829b95	nextflow ./bact_scRNA_assembly.nf
+2023-07-23 20:28:59	967ms	sharp_leibniz	ERR	47289ae12d34f5ea71c138cda21fca86	8b99b5c5-8926-4606-b43c-3381ec2e236c	nextflow ./bact_scRNA_assembly.nf
+2023-07-23 20:29:30	1.3s	silly_brazil	ERR	f8adbae29dee52126b19d132578413ba	b0d04a0a-1a5f-4735-88fc-5671a4a871a9	nextflow ./bact_scRNA_assembly.nf
+2023-07-23 20:30:05	1.7s	marvelous_ampere	ERR	187d0afb6e563c229ef67a9d01bbe78a	e18c6d04-fa70-45e4-8723-a5429003869f	nextflow ./bact_scRNA_assembly.nf
+2023-07-23 20:30:15	1.4s	chaotic_shannon	ERR	73e9a7b4efe89cc8ec00651543ab76f5	6c4b9e1e-d742-4fc0-bce6-7598212e86e1	nextflow ./bact_scRNA_assembly.nf
+2023-07-23 20:30:31	1.5s	sad_morse	ERR	471530ffccac664af879d4638e0b41a6	2198587f-b67f-45c0-a5aa-c27a7fe2d434	nextflow ./bact_scRNA_assembly.nf
+2023-07-23 20:30:42	1.4s	nasty_plateau	ERR	0e25b87c7fb4dc0fa8c999bdf375bbba	189d13e4-adc8-4c36-a1c8-a69e72f28355	nextflow ./bact_scRNA_assembly.nf
+2023-07-23 20:31:14	1.2s	fabulous_brown	ERR	bb6eff65165b30c2f8f2b9e06ed82eec	9caa0264-8e27-4445-a843-5dc8925b854c	nextflow ./bact_scRNA_assembly.nf
+2023-07-23 20:32:57	1.1s	dreamy_ardinghelli	ERR	0330a7907fcf4d694b01047130f834af	1e5b3b33-0ce8-4c9f-9bad-fcb9d5a622c4	nextflow ./bact_scRNA_assembly.nf
+2023-07-23 20:33:40	1.2s	mad_hilbert	ERR	0330a7907fcf4d694b01047130f834af	3e2ee7ce-4ea8-456d-8ef2-cf655b38f9d0	nextflow ./bact_scRNA_assembly.nf
+2023-07-23 20:33:55	-	romantic_heyrovsky	-	0330a7907fcf4d694b01047130f834af	eb2d45ea-25b0-4e0f-a22f-c3c2414c0535	nextflow ./bact_scRNA_assembly.nf -w /data/
+2023-07-23 20:34:22	-	zen_thompson	-	0330a7907fcf4d694b01047130f834af	450b7538-17f4-411d-acd7-a993f16d051e	nextflow ./bact_scRNA_assembly.nf -w /data/
+2023-07-23 20:34:36	-	mighty_sanger	-	0330a7907fcf4d694b01047130f834af	d1731ec4-f41c-4703-ab63-0d4b02ba4804	nextflow ./bact_scRNA_assembly.nf -w /temp_data/
+2023-07-26 17:32:02	1.6s	infallible_koch	ERR	25f4a0551f4eb868cff849374471861d	7f0bba77-7de1-4f1a-91d3-03ec45cef387	nextflow ./bact_scRNA_assembly.nf
+2023-07-26 17:32:47	1.8s	irreverent_booth	ERR	ce6f3ca35608dadd2091dd17b229cb4c	58025dc2-1ef8-4323-bd6c-34f3bae79ad2	nextflow ./bact_scRNA_assembly.nf
+2023-07-26 17:33:06	1.4s	magical_meucci	ERR	bf0cf9e004700e1e1bd0faab6aed0b84	37a2c2e0-e3b0-4353-91e8-3956ca3c7e4d	nextflow ./bact_scRNA_assembly.nf
