@@ -4,10 +4,11 @@
 */
 NXF_WORK="${baseDir}/data/"
 nextflow.enable.dsl=2
+params.outdir = './out/'
 
-process fastqc {
+process subsampleReads {
 
- publishDir pattern: "*.html", path: { params.outdir + "fastp/" }, mode: 'copy'
+ publishDir pattern: "*.fastq", path: { params.outdir + "out/" }, mode: 'copy'
 
   input:
   path reads_file
@@ -16,26 +17,44 @@ process fastqc {
   path "${baseDir}/out/"
 
   script:
+  """
+
+  #!/bin/bash
+  ./subsample_reads.py
+
+  """
+}
+
+process fastqc {
+
+  input:
+  path reads_file
+
+  output:
+  path 'fastqc'
+
+  script:
   sample_id = 'test'
   """
   sample_id="test"
-  mkdir -p ${baseDir}/fastqc/${sample_id}_logs
-  fastqc -o ${baseDir}/fastqc/${sample_id}_logs -f fastq -q ${reads_file}
+  mkdir -p fastqc
+  fastqc -o fastqc -f fastq -q ${reads_file}
+
   """
 }
 
 process multiqc {
+  publishDir params.outdir, mode:'copy'
 
   input:
-  path("${baseDir}/fastqc/.*")
+  path('*')
 
   output:
-  path("${baseDir}/multiqc_logs")
+   path('multiqc_report')
 
   script:
   """
-  mkdir -p multiqc_logs
-  multiqc fastqc_.* -o ${baseDir}/multiqc_logs
+  multiqc fastqc/.* -o multiqc_report
   """
 }
 
@@ -58,12 +77,9 @@ process trimPolyA {
 
 workflow {
     reads = Channel
-        .fromPath("$baseDir/data/reads/*.fastq.gz")
+        .fromPath("$baseDir/out/mock_0_R1.fastq")
         .view()
     fastqc(reads)
-    fastqc_reports = Channel
-        .fromPath("$baseDir/out/*_fastqc.zip")
-        .view()
-    multiqc(fastqc_reports)
+    multiqc(fastqc.out.collect())
     }
 
